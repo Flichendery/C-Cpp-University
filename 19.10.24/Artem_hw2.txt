@@ -1,0 +1,1 @@
+cd /; cd ~/<user_name>; mkdir directory_1; mkdir directory_2; cd directory_2; touch file_1; mkdir directory_21
