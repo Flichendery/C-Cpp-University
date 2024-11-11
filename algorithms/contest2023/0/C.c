@@ -4,7 +4,7 @@
 int sort(int array[], int maximum) {
     int i, j, k;
 
-    if (maximum > 3 && maximum != 4) {
+    if (maximum > 4) {
         for (i = 0; i < (maximum / 2); ++i) {
             j = i;
             while (array[j] > array[j + 1] && j < (maximum / 2)) {
