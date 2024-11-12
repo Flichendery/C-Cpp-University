@@ -35,5 +35,6 @@ int main() {
         printf("%d ", str[i]);
     }
     printf("\n");
-    free(str); 
+    free(str);
+    
 }
