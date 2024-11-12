@@ -3,9 +3,10 @@
 
 int main() {
     int count;
-    scanf("%d", &count);
-    
     int numbers[1000];
+
+    scanf("%d", &count);
+
     for (int i = 0; i < count; i++) {
         scanf("%d", &numbers[i]);
     }
@@ -17,5 +18,4 @@ int main() {
         }
     }
     printf("\n");
-    return 0;
 }

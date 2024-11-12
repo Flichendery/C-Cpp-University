@@ -45,4 +45,5 @@ int main() {
     }
 
     find(array, N);
+    free(array);
 }

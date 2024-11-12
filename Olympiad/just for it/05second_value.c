@@ -53,7 +53,7 @@ int find(int array[], int N) {
                     }
 
                     else {
-                        printf("%d", array[i]);
+                        printf("%d", -1);
                         break;
                     }
                 }
@@ -76,4 +76,5 @@ int main() {
     }
 
     find(array, N);
+    free(array);
 }
