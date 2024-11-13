@@ -5,9 +5,8 @@ int find(char str[], int N) {
     int i = 0, lencount = 0, count = 1, cb = -1;
 
     if (N > 1) {
-
         for (i = 0; i < N - 1; ++i) {
-            if ((str[i] != str[i + 1] && str[i] == 'B')) lencount += 1;
+            if (((str[i] == 'B' || (i + 2 >= N)) && str[i] != str[i + 1])) lencount += 1;
         }
 
         printf("%d", lencount);
@@ -35,3 +34,4 @@ int main() {
     find(str, N);
     free(str);
 }
+// Not done yet :p

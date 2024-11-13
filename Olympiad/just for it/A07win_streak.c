@@ -28,4 +28,5 @@ int main() {
     }
 
     find(str, N);
+    free(str);
 }

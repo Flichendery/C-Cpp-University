@@ -12,4 +12,4 @@
 - [**Лабораторные работы**](./Lab_works)
 
 
-![C](https://media1.tenor.com/m/owcXAd_6ITsAAAAd/cat-jam.gif)
+![Cat](https://i.imgur.com/skM0rRM.gif)
