@@ -9,7 +9,7 @@
 
 ### Работы
 - [**Домашняя работа**](./C-Cpp/homework)
-- [**Лабораторные работы**](./Lab works)
+- [**Лабораторные работы**](./Lab_works)
 
 
 ![C](https://media1.tenor.com/m/owcXAd_6ITsAAAAd/cat-jam.gif)
