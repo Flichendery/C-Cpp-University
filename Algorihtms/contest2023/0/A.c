@@ -4,12 +4,11 @@
 void sort(int str[], int maximum) {
     int i;
     for (int i = 0; i < maximum; ++i) {
-        int j = i;
-        while (str[j] > str[j + 1] && j < maximum) {
-            int k = str[j];
-            str[j] = str[j + 1];
-            str[j + 1] = k;
-            j -= 1;
+        while (str[i] > str[i + 1] && i < maximum) {
+            int k = str[i];
+            str[i] = str[i + 1];
+            str[i + 1] = k;
+            i -= 1;
         }
     }
 }
