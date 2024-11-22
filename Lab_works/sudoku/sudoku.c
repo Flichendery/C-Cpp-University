@@ -11,9 +11,9 @@ int brute_hide(SudokuGrid *grid, sudoku_size row, sudoku_size col);
 // Инициализация поля
 void initialize_grid(SudokuGrid *grid, GridSize size) {
     (*grid).size = size;
-    (*grid).cells = (int **)malloc(size * sizeof(int *));
+    (*grid).cells = (int **)malloc(size * sizeof(int *)); // Выделение памяти без инициализации пустого пространства
     for (sudoku_size i = 0; i < size; i++) {
-        *((*grid).cells + i) = (int *)calloc(size, sizeof(int));
+        *((*grid).cells + i) = (int *)calloc(size, sizeof(int)); // Выделение памяти с инициализацией пустого пространства в виде нулей
     }
     generate_initial_grid(grid);
 }

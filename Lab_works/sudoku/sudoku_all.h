@@ -1,7 +1,7 @@
 #ifndef SUDOKU_ALL_H
 #define SUDOKU_ALL_H
 
-// ======= COLORS =======
+// Цвета
 #define RESET   "\x1b[0m"
 #define RED     "\x1b[31m"
 #define GREEN   "\x1b[32m"
@@ -11,13 +11,12 @@
 #define CYAN    "\x1b[36m"
 #define WHITE   "\x1b[37m"
 
-// ======= ENUMS =======
+// Псевдотипы
 typedef enum {
     FOUR_BY_FOUR = 4,
     NINE_BY_NINE = 9
 } GridSize;
 
-// ======= TYPES =======
 typedef unsigned int sudoku_size;
 
 typedef struct {
@@ -30,7 +29,7 @@ typedef struct {
     sudoku_size col;
 } Position;
 
-// ======= FUNCTION DECLARATIONS =======
+// Объявление функций
 // sudoku.c
 void initialize_grid(SudokuGrid *grid, GridSize size);
 void generate_initial_grid(SudokuGrid *grid);
@@ -47,4 +46,4 @@ void my_sleep(int milliseconds);
 // bruteforce.c
 int run_bruteforce(SudokuGrid *grid);
 
-#endif // SUDOKU_ALL_H
+#endif
